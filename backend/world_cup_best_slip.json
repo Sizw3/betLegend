@@ -1,0 +1,156 @@
+{
+  "summary": {
+    "total_analyzed": 72,
+    "best_picks_count": 18,
+    "filters": {
+      "min_conf": 75.0,
+      "min_ml_o15": 70.0
+    }
+  },
+  "best_picks": [
+    {
+      "match": "Germany vs Ivory Coast",
+      "market": "Over 1.5 Goals",
+      "confidence": 99.0,
+      "ml_o15": 50.0,
+      "recommendation": "Over 1.5 Goals",
+      "rationale": "ML Over 1.5: 50%. Formation attack index: N/A."
+    },
+    {
+      "match": "Curacao vs Ivory Coast",
+      "market": "Over 1.5 Goals",
+      "confidence": 99.0,
+      "ml_o15": 50.0,
+      "recommendation": "Over 1.5 Goals",
+      "rationale": "ML Over 1.5: 50%. Formation attack index: N/A."
+    },
+    {
+      "match": "New Zealand vs Belgium",
+      "market": "Over 1.5 Goals",
+      "confidence": 99.0,
+      "ml_o15": 50.0,
+      "recommendation": "Over 1.5 Goals",
+      "rationale": "ML Over 1.5: 50%. Formation attack index: 4-3-3."
+    },
+    {
+      "match": "Ivory Coast vs Ecuador",
+      "market": "Over 1.5 Goals",
+      "confidence": 98.0,
+      "ml_o15": 50.0,
+      "recommendation": "Over 1.5 Goals",
+      "rationale": "ML Over 1.5: 50%. Formation attack index: 4-2-3-1."
+    },
+    {
+      "match": "IR Iran vs New Zealand",
+      "market": "Over 1.5 Goals",
+      "confidence": 98.0,
+      "ml_o15": 50.0,
+      "recommendation": "Over 1.5 Goals",
+      "rationale": "ML Over 1.5: 50%. Formation attack index: N/A."
+    },
+    {
+      "match": "New Zealand vs Egypt",
+      "market": "Over 1.5 Goals",
+      "confidence": 98.0,
+      "ml_o15": 50.0,
+      "recommendation": "Over 1.5 Goals",
+      "rationale": "ML Over 1.5: 50%. Formation attack index: 4-2-3-1."
+    },
+    {
+      "match": "Spain vs Saudi Arabia",
+      "market": "Double Chance - Home/Draw",
+      "confidence": 84.4,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Home/Draw",
+      "rationale": "Home DC: 100%. ML Home: 50%. Squad quality edge: +0.30."
+    },
+    {
+      "match": "Spain vs Cape Verde",
+      "market": "Double Chance - Home/Draw",
+      "confidence": 84.0,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Home/Draw",
+      "rationale": "Home DC: 100%. ML Home: 50%. Squad quality edge: +0.26."
+    },
+    {
+      "match": "Jordan vs Argentina",
+      "market": "Double Chance - Away/Draw",
+      "confidence": 83.0,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Away/Draw",
+      "rationale": "Away DC: 100%. ML Away: 50%."
+    },
+    {
+      "match": "Argentina vs Algeria",
+      "market": "Double Chance - Home/Draw",
+      "confidence": 80.8,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Home/Draw",
+      "rationale": "Home DC: 100%. ML Home: 50%. Squad quality edge: +0.11."
+    },
+    {
+      "match": "Argentina vs Austria",
+      "market": "Double Chance - Home/Draw",
+      "confidence": 79.8,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Home/Draw",
+      "rationale": "Home DC: 100%. ML Home: 50%. Squad quality edge: +0.17."
+    },
+    {
+      "match": "USA vs Australia",
+      "market": "Double Chance - Away/Draw",
+      "confidence": 78.0,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Away/Draw",
+      "rationale": "Away DC: 90%. ML Away: 50%."
+    },
+    {
+      "match": "Australia vs Turkiye",
+      "market": "Double Chance - Home/Draw",
+      "confidence": 77.3,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Home/Draw",
+      "rationale": "Home DC: 90%. ML Home: 50%. Squad quality edge: +0.24."
+    },
+    {
+      "match": "Scotland vs Morocco",
+      "market": "Double Chance - Away/Draw",
+      "confidence": 77.2,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Away/Draw",
+      "rationale": "Away DC: 90%. ML Away: 50%."
+    },
+    {
+      "match": "Uruguay vs Spain",
+      "market": "Double Chance - Away/Draw",
+      "confidence": 75.9,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Away/Draw",
+      "rationale": "Away DC: 100%. ML Away: 50%."
+    },
+    {
+      "match": "Uzbekistan vs Colombia",
+      "market": "Double Chance - Away/Draw",
+      "confidence": 75.8,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Away/Draw",
+      "rationale": "Away DC: 90%. ML Away: 50%."
+    },
+    {
+      "match": "Morocco vs Haiti",
+      "market": "Double Chance - Home/Draw",
+      "confidence": 75.7,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Home/Draw",
+      "rationale": "Home DC: 90%. ML Home: 50%. Squad quality edge: +0.08."
+    },
+    {
+      "match": "Switzerland vs Bosnia & Herzegovina",
+      "market": "Double Chance - Home/Draw",
+      "confidence": 75.2,
+      "ml_o15": 50.0,
+      "recommendation": "Double Chance - Home/Draw",
+      "rationale": "Home DC: 90%. ML Home: 50%. Squad quality edge: +0.04."
+    }
+  ]
+}

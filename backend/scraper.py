@@ -8,6 +8,9 @@ from playwright_stealth import Stealth
 CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".cache")
 os.makedirs(CACHE_DIR, exist_ok=True)
 
+# Toggle this to False to skip Sofascore live requests and use local cache only
+USE_LIVE_SCRAPING = True 
+
 def get_json_from_page(page, url):
     page.goto(url)
     content = page.content()
@@ -185,6 +188,12 @@ def fetch_all_match_data(home_team_name: str, away_team_name: str):
         browser = p.chromium.launch(headless=True)
         page    = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         Stealth().apply_stealth_sync(page)
+
+        if not USE_LIVE_SCRAPING:
+            # If scraping is disabled and no cache exists, return an empty but safe structure
+            # to be filled by the Intelligence Layer / Local Dataset later
+            browser.close()
+            return data
 
         data = {
             "home": {"name": home_team_name, "id": None, "found": False, "stats": None, "player_data": None},

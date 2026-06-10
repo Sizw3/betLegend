@@ -7,6 +7,7 @@ Anti-Overfitting: Player data used as multiplier, NOT as XGBoost features
 import os, pickle
 import numpy as np
 from scraper import fetch_all_match_data
+from wc_feature_connector import WCFeatureConnector
 
 MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
 
@@ -80,9 +81,14 @@ def load_models():
 
 _models = load_models()
 
-def build_live_feature_vector(hs, as_):
+def build_live_feature_vector(hs, as_, h_name, a_name):
+    # Humanistic/WC Upgrade Connector
+    connector = WCFeatureConnector()
+    hwc = connector.get_features(h_name)
+    awc = connector.get_features(a_name)
+    
     form = lambda s: s['win_rate']*3 + s['draw_rate']
-    return {
+    feat = {
         'h_avg_gf': hs['avg_scored'], 'h_avg_ga': hs['avg_conceded'],
         'h_avg_sot': hs['avg_scored']/0.32, 'h_win_rate': hs['win_rate'],
         'h_draw_rate': hs['draw_rate'], 'h_btts_rate': hs['btts_rate'],
@@ -100,6 +106,24 @@ def build_live_feature_vector(hs, as_):
         'form_diff': form(hs)-form(as_),
         'cs_combined': (hs['clean_sheet_rate']+as_['clean_sheet_rate'])/2,
     }
+    
+    # --- Add WC DNA features ---
+    feat['h_wc_rank']   = hwc['wc_rank']
+    feat['a_wc_rank']   = awc['wc_rank']
+    feat['h_wc_value']  = hwc['wc_value']
+    feat['a_wc_value']  = awc['wc_value']
+    feat['h_wc_exp']    = hwc['wc_exp']
+    feat['a_wc_exp']    = awc['wc_exp']
+    feat['h_wc_titles'] = hwc['wc_titles']
+    feat['a_wc_titles'] = awc['wc_titles']
+    feat['h_wc_success'] = hwc['wc_success_rate']
+    feat['a_wc_success'] = awc['wc_success_rate']
+    feat['wc_rank_diff'] = hwc['wc_rank'] - awc['wc_rank']
+    feat['h_heritage']   = hwc['heritage_score']
+    feat['a_heritage']   = awc['heritage_score']
+    feat['heritage_diff'] = hwc['heritage_score'] - awc['heritage_score']
+    
+    return feat
 
 def ml_predict(feat):
     import pandas as pd
@@ -198,10 +222,18 @@ def score_all_markets(hs, as_, h2h, ml_probs, player_adj, mode):
 
     # Home win markets — boosted by strength (squad quality + FIFA rank)
     def home_boost(base):
-        return min(0.97, base + strength * 0.12)
+        # Humanistic Upgrade: Straight wins get a stronger boost if strength is high
+        return min(0.98, base + strength * 0.18)
 
     def away_boost(base):
-        return min(0.97, base - strength * 0.12)
+        return min(0.98, base - strength * 0.18)
+
+    # Heritage boost: Teams with all-time success DNA get a multiplier
+    def heritage_boost(base, team_name):
+        connector = WCFeatureConnector()
+        score = connector.heritage_scores.get(team_name.lower(), 0)
+        boost = min(0.08, score / 400) # Max 8% boost for historical giants
+        return min(0.99, base + boost)
 
     # High/Conservative Risk Penalty: Shift recommendations up the odds ladder
     def apply_risk_profile(market_key, base_conf):
@@ -210,8 +242,9 @@ def score_all_markets(hs, as_, h2h, ml_probs, player_adj, mode):
             if market_key in ("OVER_1_5", "UNDER_3_5", "DC_HOME", "DC_AWAY"): return base_conf * 0.7
             if market_key in ("HOME_WIN", "AWAY_WIN", "OVER_2_5", "BTTS_YES"): return base_conf * 1.15
         elif mode == "conservative":
-            if market_key in ("OVER_0_5", "UNDER_4_5"): return base_conf * 0.5  # Heavily penalize ultra-safe bets
-            if market_key in ("OVER_1_5", "UNDER_3_5", "DC_HOME", "DC_AWAY"): return base_conf * 1.1  # Boost moderate bets
+            if market_key in ("OVER_0_5", "UNDER_4_5"): return base_conf * 0.6  # Less extreme penalty
+            if market_key in ("OVER_1_5", "UNDER_3_5", "DC_HOME", "DC_AWAY"): return base_conf * 1.05  # Moderate boost
+            if market_key in ("HOME_WIN", "AWAY_WIN"): return base_conf * 0.95  # Minimal penalty for straight wins
         return base_conf
 
     candidates = [
@@ -267,7 +300,8 @@ class BetLegendEngine:
         home_rank = get_fifa_rank(home_name)
         away_rank = get_fifa_rank(away_name)
 
-        feat       = build_live_feature_vector(hs, as_)
+        # Humanistic Upgrade: Pass names to get historical WC features
+        feat       = build_live_feature_vector(hs, as_, home_name, away_name)
         ml_probs   = ml_predict(feat) if _models else {}
         player_adj = compute_player_adjustment(home_pd, away_pd, home_rank, away_rank)
 

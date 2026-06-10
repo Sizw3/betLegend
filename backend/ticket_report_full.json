@@ -1,0 +1,2652 @@
+[
+  {
+    "idx": 1,
+    "match": "SK Kladno vs FK Arsenal Ceska Lipa",
+    "user_bet": "Over 0.5 @ 1.21",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 85.9,
+    "reason": "ML Over 1.5 = 85.9%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "SK Kladno vs Arsenal \u010cesk\u00e1 L\u00edpa",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (3.37) makes 0-0 highly unlikely.",
+      "edge": 0.1979,
+      "ml_probabilities": {
+        "btts": 64.0,
+        "over_2_5": 65.5,
+        "over_1_5": 85.9,
+        "under_2_5": 34.5,
+        "home_win": 33.3,
+        "away_win": 22.8
+      },
+      "intelligence": {
+        "home_squad_rating": null,
+        "away_squad_rating": null,
+        "home_top_player": null,
+        "away_top_player": null,
+        "home_formation": "N/A",
+        "away_formation": "N/A",
+        "squad_quality_gap": 0.0,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.0
+      },
+      "stats_summary": {
+        "home": {
+          "name": "SK Kladno",
+          "matches_analyzed": 10,
+          "avg_total_goals": 4.3,
+          "avg_scored": 2.9,
+          "avg_conceded": 1.4,
+          "win_rate": 0.6,
+          "draw_rate": 0.2,
+          "btts_rate": 0.6,
+          "clean_sheet_rate": 0.4,
+          "over_2_5_rate": 0.9,
+          "under_2_5_rate": 0.1
+        },
+        "away": {
+          "name": "Arsenal \u010cesk\u00e1 L\u00edpa",
+          "matches_analyzed": 10,
+          "avg_total_goals": 3.6,
+          "avg_scored": 2.5,
+          "avg_conceded": 1.1,
+          "win_rate": 0.9,
+          "draw_rate": 0.0,
+          "btts_rate": 0.4,
+          "clean_sheet_rate": 0.6,
+          "over_2_5_rate": 0.6,
+          "under_2_5_rate": 0.4
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (3.37) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 76.6,
+          "rationale": "ML Over 1.5: 86%. Formation attack index: N/A."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 48.8,
+          "rationale": "Blended avg: 3.37. H2H Under 3.5: 60%. Formation: N/A vs N/A."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 43.0,
+          "rationale": "ML BTTS-No: 36%. Form BTTS: 50%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 42.1,
+          "rationale": "Blended avg: 3.37. ML Under 2.5: 35%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 41.5,
+          "rationale": "ML Under 2.5: 35%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 2,
+    "match": "KS Stare Oborzyska vs Kkp Bydgoszcz",
+    "user_bet": "Over 0.5 @ 1.14",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 82.7,
+    "reason": "ML Over 1.5 = 82.7%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "KS Juna-Trans Stare Oborzyska vs KKP Bydgoszcz",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (3.78) makes 0-0 highly unlikely.",
+      "edge": 0.1286,
+      "ml_probabilities": {
+        "btts": 61.6,
+        "over_2_5": 59.6,
+        "over_1_5": 82.7,
+        "under_2_5": 40.4,
+        "home_win": 47.3,
+        "away_win": 24.5
+      },
+      "intelligence": {
+        "home_squad_rating": null,
+        "away_squad_rating": null,
+        "home_top_player": null,
+        "away_top_player": null,
+        "home_formation": "N/A",
+        "away_formation": "N/A",
+        "squad_quality_gap": 0.0,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.0
+      },
+      "stats_summary": {
+        "home": {
+          "name": "KS Juna-Trans Stare Oborzyska",
+          "matches_analyzed": 10,
+          "avg_total_goals": 5.3,
+          "avg_scored": 1.9,
+          "avg_conceded": 3.4,
+          "win_rate": 0.3,
+          "draw_rate": 0.1,
+          "btts_rate": 0.8,
+          "clean_sheet_rate": 0.0,
+          "over_2_5_rate": 1.0,
+          "under_2_5_rate": 0.0
+        },
+        "away": {
+          "name": "KKP Bydgoszcz",
+          "matches_analyzed": 10,
+          "avg_total_goals": 4.1,
+          "avg_scored": 1.1,
+          "avg_conceded": 3.0,
+          "win_rate": 0.1,
+          "draw_rate": 0.3,
+          "btts_rate": 0.8,
+          "clean_sheet_rate": 0.0,
+          "over_2_5_rate": 0.9,
+          "under_2_5_rate": 0.1
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (3.78) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 89.4,
+          "rationale": "ML Over 1.5: 83%. Formation attack index: N/A."
+        },
+        {
+          "market": "Both Teams to Score - Yes",
+          "betway_label": "Both Teams to Score - Yes",
+          "confidence_pct": 39.8,
+          "rationale": "ML BTTS: 62%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Over 2.5 Goals",
+          "betway_label": "Total Goals - Over 2.5",
+          "confidence_pct": 39.2,
+          "rationale": "ML Over 2.5: 60%."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 37.1,
+          "rationale": "Blended avg: 3.78. H2H Under 3.5: 60%. Formation: N/A vs N/A."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 35.2,
+          "rationale": "ML BTTS-No: 38%. Form BTTS: 80%. H2H BTTS: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 3,
+    "match": "Jong Sparta Rotterdam vs FC Groningen",
+    "user_bet": "Over 0.5 @ 1.28",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 77.6,
+    "reason": "ML Over 1.5 = 77.6%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Jong Sparta Rotterdam vs FC Groningen",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (3.28) makes 0-0 highly unlikely.",
+      "edge": 0.2672,
+      "ml_probabilities": {
+        "btts": 56.2,
+        "over_2_5": 53.0,
+        "over_1_5": 77.6,
+        "under_2_5": 47.0,
+        "home_win": 59.5,
+        "away_win": 21.6
+      },
+      "intelligence": {
+        "home_squad_rating": 7.215,
+        "away_squad_rating": 6.709,
+        "home_top_player": 8.867,
+        "away_top_player": 7.6,
+        "home_formation": "4-2-3-1",
+        "away_formation": "4-2-3-1",
+        "squad_quality_gap": 0.253,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.152
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Jong Sparta Rotterdam",
+          "matches_analyzed": 10,
+          "avg_total_goals": 4.5,
+          "avg_scored": 2.2,
+          "avg_conceded": 2.3,
+          "win_rate": 0.3,
+          "draw_rate": 0.3,
+          "btts_rate": 0.9,
+          "clean_sheet_rate": 0.1,
+          "over_2_5_rate": 0.8,
+          "under_2_5_rate": 0.2
+        },
+        "away": {
+          "name": "FC Groningen",
+          "matches_analyzed": 10,
+          "avg_total_goals": 3.6,
+          "avg_scored": 1.5,
+          "avg_conceded": 2.1,
+          "win_rate": 0.3,
+          "draw_rate": 0.2,
+          "btts_rate": 0.5,
+          "clean_sheet_rate": 0.2,
+          "over_2_5_rate": 0.5,
+          "under_2_5_rate": 0.5
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (3.28) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 72.9,
+          "rationale": "ML Over 1.5: 78%. Formation attack index: 4-2-3-1."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 51.9,
+          "rationale": "Blended avg: 3.28. H2H Under 3.5: 60%. Formation: 4-2-3-1 vs 4-2-3-1."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 48.8,
+          "rationale": "ML Under 2.5: 47%. H2H Under 2.5: 50%."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 45.4,
+          "rationale": "Blended avg: 3.28. ML Under 2.5: 47%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 40.9,
+          "rationale": "ML BTTS-No: 44%. Form BTTS: 70%. H2H BTTS: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 4,
+    "match": "Orebro SK vs GIF Sundsvall",
+    "user_bet": "Over 0.5 @ 1.13",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 84.0,
+    "reason": "ML Over 1.5 = 84.0%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "\u00d6rebro SK vs GIF Sundsvall",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.77) makes 0-0 highly unlikely.",
+      "edge": 0.1187,
+      "ml_probabilities": {
+        "btts": 54.4,
+        "over_2_5": 61.8,
+        "over_1_5": 84.0,
+        "under_2_5": 38.2,
+        "home_win": 55.1,
+        "away_win": 20.5
+      },
+      "intelligence": {
+        "home_squad_rating": 7.082,
+        "away_squad_rating": 6.912,
+        "home_top_player": 8.5,
+        "away_top_player": 7.567,
+        "home_formation": "4-4-2",
+        "away_formation": "5-4-1",
+        "squad_quality_gap": 0.085,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.051
+      },
+      "stats_summary": {
+        "home": {
+          "name": "\u00d6rebro SK",
+          "matches_analyzed": 10,
+          "avg_total_goals": 3.5,
+          "avg_scored": 1.9,
+          "avg_conceded": 1.6,
+          "win_rate": 0.4,
+          "draw_rate": 0.2,
+          "btts_rate": 0.8,
+          "clean_sheet_rate": 0.1,
+          "over_2_5_rate": 0.6,
+          "under_2_5_rate": 0.4
+        },
+        "away": {
+          "name": "GIF Sundsvall",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.7,
+          "avg_scored": 1.0,
+          "avg_conceded": 1.7,
+          "win_rate": 0.2,
+          "draw_rate": 0.1,
+          "btts_rate": 0.6,
+          "clean_sheet_rate": 0.1,
+          "over_2_5_rate": 0.6,
+          "under_2_5_rate": 0.4
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.77) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 78.9,
+          "rationale": "ML Over 1.5: 84%. Formation attack index: 5-4-1."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 52.5,
+          "rationale": "Blended avg: 2.77. H2H Under 3.5: 60%. Formation: 4-4-2 vs 5-4-1."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 46.9,
+          "rationale": "Blended avg: 2.77. ML Under 2.5: 38%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 41.8,
+          "rationale": "ML BTTS-No: 46%. Form BTTS: 70%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 39.2,
+          "rationale": "ML Under 2.5: 38%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 5,
+    "match": "Varbergs BoIS vs Norrby IF",
+    "user_bet": "Over 0.5 @ 1.48",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 78.4,
+    "reason": "ML Over 1.5 = 78.4%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Varbergs BoIS vs Norrby IF",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.91) makes 0-0 highly unlikely.",
+      "edge": 0.4652,
+      "ml_probabilities": {
+        "btts": 57.6,
+        "over_2_5": 57.2,
+        "over_1_5": 78.4,
+        "under_2_5": 42.8,
+        "home_win": 25.2,
+        "away_win": 51.3
+      },
+      "intelligence": {
+        "home_squad_rating": 7.015,
+        "away_squad_rating": 7.118,
+        "home_top_player": 7.7,
+        "away_top_player": 8.0,
+        "home_formation": "4-3-3",
+        "away_formation": "4-2-3-1",
+        "squad_quality_gap": -0.052,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": -0.031
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Varbergs BoIS",
+          "matches_analyzed": 10,
+          "avg_total_goals": 3.0,
+          "avg_scored": 1.6,
+          "avg_conceded": 1.4,
+          "win_rate": 0.3,
+          "draw_rate": 0.5,
+          "btts_rate": 0.9,
+          "clean_sheet_rate": 0.1,
+          "over_2_5_rate": 0.6,
+          "under_2_5_rate": 0.4
+        },
+        "away": {
+          "name": "Norrby IF",
+          "matches_analyzed": 10,
+          "avg_total_goals": 3.8,
+          "avg_scored": 2.7,
+          "avg_conceded": 1.1,
+          "win_rate": 0.9,
+          "draw_rate": 0.0,
+          "btts_rate": 0.7,
+          "clean_sheet_rate": 0.2,
+          "over_2_5_rate": 0.8,
+          "under_2_5_rate": 0.2
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.91) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 78.9,
+          "rationale": "ML Over 1.5: 78%. Formation attack index: 4-2-3-1."
+        },
+        {
+          "market": "Double Chance - Away/Draw",
+          "betway_label": "Double Chance - X2",
+          "confidence_pct": 49.9,
+          "rationale": "Away DC: 90%. ML Away: 51%."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 48.1,
+          "rationale": "Blended avg: 2.91. H2H Under 3.5: 60%. Formation: 4-3-3 vs 4-2-3-1."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 42.3,
+          "rationale": "Blended avg: 2.91. ML Under 2.5: 43%."
+        },
+        {
+          "market": "Away Team Win",
+          "betway_label": "1X2 - Away Win (2)",
+          "confidence_pct": 40.2,
+          "rationale": "ML Away Win: 51%. Squad rating: 7.118."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 6,
+    "match": "Lidkopings FK vs Skovde AIK",
+    "user_bet": "Over 1.5 @ 1.35",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 77.0,
+    "reason": "ML Over 1.5 = 77.0%. Strong signal.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Lidk\u00f6pings FK vs Sk\u00f6vde AIK",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.16) makes 0-0 highly unlikely.",
+      "edge": 0.3365,
+      "ml_probabilities": {
+        "btts": 52.9,
+        "over_2_5": 57.2,
+        "over_1_5": 77.0,
+        "under_2_5": 42.8,
+        "home_win": 51.1,
+        "away_win": 20.8
+      },
+      "intelligence": {
+        "home_squad_rating": null,
+        "away_squad_rating": 7.068,
+        "home_top_player": null,
+        "away_top_player": 7.95,
+        "home_formation": "N/A",
+        "away_formation": "4-4-2",
+        "squad_quality_gap": 0.0,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.0
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Lidk\u00f6pings FK",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.4,
+          "avg_scored": 1.6,
+          "avg_conceded": 0.8,
+          "win_rate": 0.5,
+          "draw_rate": 0.4,
+          "btts_rate": 0.6,
+          "clean_sheet_rate": 0.3,
+          "over_2_5_rate": 0.5,
+          "under_2_5_rate": 0.5
+        },
+        "away": {
+          "name": "Sk\u00f6vde AIK",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.1,
+          "avg_scored": 0.8,
+          "avg_conceded": 1.3,
+          "win_rate": 0.2,
+          "draw_rate": 0.3,
+          "btts_rate": 0.4,
+          "clean_sheet_rate": 0.3,
+          "over_2_5_rate": 0.4,
+          "under_2_5_rate": 0.6
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.16) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 70.6,
+          "rationale": "ML Over 1.5: 77%. Formation attack index: 4-4-2."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 57.9,
+          "rationale": "Blended avg: 2.16. H2H Under 3.5: 60%. Formation: N/A vs 4-4-2."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 53.5,
+          "rationale": "Blended avg: 2.16. ML Under 2.5: 43%."
+        },
+        {
+          "market": "Double Chance - Home/Draw",
+          "betway_label": "Double Chance - 1X",
+          "confidence_pct": 49.4,
+          "rationale": "Home DC: 90%. ML Home: 51%. Squad quality edge: +0.00."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 48.5,
+          "rationale": "ML BTTS-No: 47%. Form BTTS: 50%. H2H BTTS: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 7,
+    "match": "Gilla FC vs EIF Akademi",
+    "user_bet": "Over 0.5 @ 1.13",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 82.4,
+    "reason": "ML Over 1.5 = 82.4%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Gilla FC vs EIF/Akademi",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (3.76) makes 0-0 highly unlikely.",
+      "edge": 0.1187,
+      "ml_probabilities": {
+        "btts": 63.5,
+        "over_2_5": 59.9,
+        "over_1_5": 82.4,
+        "under_2_5": 40.1,
+        "home_win": 54.1,
+        "away_win": 20.2
+      },
+      "intelligence": {
+        "home_squad_rating": null,
+        "away_squad_rating": null,
+        "home_top_player": null,
+        "away_top_player": null,
+        "home_formation": "N/A",
+        "away_formation": "N/A",
+        "squad_quality_gap": 0.0,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.0
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Gilla FC",
+          "matches_analyzed": 10,
+          "avg_total_goals": 3.9,
+          "avg_scored": 2.6,
+          "avg_conceded": 1.3,
+          "win_rate": 0.6,
+          "draw_rate": 0.3,
+          "btts_rate": 0.8,
+          "clean_sheet_rate": 0.2,
+          "over_2_5_rate": 0.8,
+          "under_2_5_rate": 0.2
+        },
+        "away": {
+          "name": "EIF/Akademi",
+          "matches_analyzed": 10,
+          "avg_total_goals": 5.4,
+          "avg_scored": 3.2,
+          "avg_conceded": 2.2,
+          "win_rate": 0.5,
+          "draw_rate": 0.1,
+          "btts_rate": 0.8,
+          "clean_sheet_rate": 0.1,
+          "over_2_5_rate": 0.9,
+          "under_2_5_rate": 0.1
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (3.76) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 85.4,
+          "rationale": "ML Over 1.5: 82%. Formation attack index: N/A."
+        },
+        {
+          "market": "Double Chance - Home/Draw",
+          "betway_label": "Double Chance - 1X",
+          "confidence_pct": 50.6,
+          "rationale": "Home DC: 90%. ML Home: 54%. Squad quality edge: +0.00."
+        },
+        {
+          "market": "Both Teams to Score - Yes",
+          "betway_label": "Both Teams to Score - Yes",
+          "confidence_pct": 40.8,
+          "rationale": "ML BTTS: 64%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 39.7,
+          "rationale": "Blended avg: 3.76. H2H Under 3.5: 60%. Formation: N/A vs N/A."
+        },
+        {
+          "market": "Over 2.5 Goals",
+          "betway_label": "Total Goals - Over 2.5",
+          "confidence_pct": 39.2,
+          "rationale": "ML Over 2.5: 60%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 8,
+    "match": "Colombia vs Tunisia",
+    "user_bet": "Over 0.5 @ 1.35",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 78.5,
+    "reason": "ML Over 1.5 = 78.5%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Colombia vs Tunisia",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.43) makes 0-0 highly unlikely.",
+      "edge": 0.3365,
+      "ml_probabilities": {
+        "btts": 52.6,
+        "over_2_5": 65.7,
+        "over_1_5": 78.5,
+        "under_2_5": 34.3,
+        "home_win": 80.5,
+        "away_win": 10.6
+      },
+      "intelligence": {
+        "home_squad_rating": 7.006,
+        "away_squad_rating": 6.988,
+        "home_top_player": 7.767,
+        "away_top_player": 7.7,
+        "home_formation": "4-2-3-1",
+        "away_formation": "4-2-3-1",
+        "squad_quality_gap": 0.009,
+        "home_fifa_rank": 14,
+        "away_fifa_rank": 34,
+        "strength_signal": 0.205
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Colombia",
+          "matches_analyzed": 10,
+          "avg_total_goals": 3.0,
+          "avg_scored": 2.4,
+          "avg_conceded": 0.6,
+          "win_rate": 0.8,
+          "draw_rate": 0.1,
+          "btts_rate": 0.4,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.6,
+          "under_2_5_rate": 0.4
+        },
+        "away": {
+          "name": "Tunisia",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.0,
+          "avg_scored": 1.2,
+          "avg_conceded": 0.8,
+          "win_rate": 0.5,
+          "draw_rate": 0.1,
+          "btts_rate": 0.2,
+          "clean_sheet_rate": 0.4,
+          "over_2_5_rate": 0.2,
+          "under_2_5_rate": 0.8
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.43) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 65.0,
+          "rationale": "Blended avg: 2.43. H2H Under 3.5: 60%. Formation: 4-2-3-1 vs 4-2-3-1."
+        },
+        {
+          "market": "Double Chance - Home/Draw",
+          "betway_label": "Double Chance - 1X",
+          "confidence_pct": 63.6,
+          "rationale": "Home DC: 90%. ML Home: 80%. Squad quality edge: +0.01."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 61.6,
+          "rationale": "ML Over 1.5: 78%. Formation attack index: 4-2-3-1."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 60.1,
+          "rationale": "Blended avg: 2.43. ML Under 2.5: 34%."
+        },
+        {
+          "market": "Home Team Win",
+          "betway_label": "1X2 - Home Win (1)",
+          "confidence_pct": 57.8,
+          "rationale": "ML Home Win: 80%. Squad rating: 7.006."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 9,
+    "match": "Sexypoxyt vs Nups",
+    "user_bet": "Over 0.5 @ 1.18",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 81.3,
+    "reason": "ML Over 1.5 = 81.3%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "SexyP\u00f6xyt vs Nummelan Palloseura",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (3.98) makes 0-0 highly unlikely.",
+      "edge": 0.1682,
+      "ml_probabilities": {
+        "btts": 55.9,
+        "over_2_5": 67.4,
+        "over_1_5": 81.3,
+        "under_2_5": 32.6,
+        "home_win": 84.9,
+        "away_win": 8.4
+      },
+      "intelligence": {
+        "home_squad_rating": null,
+        "away_squad_rating": null,
+        "home_top_player": null,
+        "away_top_player": null,
+        "home_formation": "N/A",
+        "away_formation": "N/A",
+        "squad_quality_gap": 0.0,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.0
+      },
+      "stats_summary": {
+        "home": {
+          "name": "SexyP\u00f6xyt",
+          "matches_analyzed": 10,
+          "avg_total_goals": 5.6,
+          "avg_scored": 3.8,
+          "avg_conceded": 1.8,
+          "win_rate": 0.6,
+          "draw_rate": 0.1,
+          "btts_rate": 0.6,
+          "clean_sheet_rate": 0.3,
+          "over_2_5_rate": 0.8,
+          "under_2_5_rate": 0.2
+        },
+        "away": {
+          "name": "Nummelan Palloseura",
+          "matches_analyzed": 10,
+          "avg_total_goals": 4.1,
+          "avg_scored": 1.7,
+          "avg_conceded": 2.4,
+          "win_rate": 0.4,
+          "draw_rate": 0.2,
+          "btts_rate": 0.6,
+          "clean_sheet_rate": 0.2,
+          "over_2_5_rate": 0.9,
+          "under_2_5_rate": 0.1
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (3.98) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 83.4,
+          "rationale": "ML Over 1.5: 81%. Formation attack index: N/A."
+        },
+        {
+          "market": "Home Team Win",
+          "betway_label": "1X2 - Home Win (1)",
+          "confidence_pct": 51.2,
+          "rationale": "ML Home Win: 85%. Squad rating: None."
+        },
+        {
+          "market": "Double Chance - Home/Draw",
+          "betway_label": "Double Chance - 1X",
+          "confidence_pct": 51.0,
+          "rationale": "Home DC: 70%. ML Home: 85%. Squad quality edge: +0.00."
+        },
+        {
+          "market": "Over 2.5 Goals",
+          "betway_label": "Total Goals - Over 2.5",
+          "confidence_pct": 44.5,
+          "rationale": "ML Over 2.5: 67%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 44.1,
+          "rationale": "ML BTTS-No: 44%. Form BTTS: 60%. H2H BTTS: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 10,
+    "match": "Leppavaaran Pallo vs PPJ",
+    "user_bet": "Over 0.5 @ 1.21",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 84.6,
+    "reason": "ML Over 1.5 = 84.6%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Lepp\u00e4vaaran Pallo vs PPJ",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (3.62) makes 0-0 highly unlikely.",
+      "edge": 0.1979,
+      "ml_probabilities": {
+        "btts": 56.5,
+        "over_2_5": 70.4,
+        "over_1_5": 84.6,
+        "under_2_5": 29.6,
+        "home_win": 56.6,
+        "away_win": 15.9
+      },
+      "intelligence": {
+        "home_squad_rating": null,
+        "away_squad_rating": null,
+        "home_top_player": null,
+        "away_top_player": null,
+        "home_formation": "N/A",
+        "away_formation": "N/A",
+        "squad_quality_gap": 0.0,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.0
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Lepp\u00e4vaaran Pallo",
+          "matches_analyzed": 10,
+          "avg_total_goals": 4.5,
+          "avg_scored": 2.7,
+          "avg_conceded": 1.8,
+          "win_rate": 0.5,
+          "draw_rate": 0.2,
+          "btts_rate": 0.8,
+          "clean_sheet_rate": 0.1,
+          "over_2_5_rate": 0.8,
+          "under_2_5_rate": 0.2
+        },
+        "away": {
+          "name": "PPJ",
+          "matches_analyzed": 10,
+          "avg_total_goals": 4.0,
+          "avg_scored": 2.2,
+          "avg_conceded": 1.8,
+          "win_rate": 0.3,
+          "draw_rate": 0.1,
+          "btts_rate": 0.7,
+          "clean_sheet_rate": 0.1,
+          "over_2_5_rate": 0.7,
+          "under_2_5_rate": 0.3
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (3.62) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 87.2,
+          "rationale": "ML Over 1.5: 85%. Formation attack index: N/A."
+        },
+        {
+          "market": "Over 2.5 Goals",
+          "betway_label": "Total Goals - Over 2.5",
+          "confidence_pct": 44.3,
+          "rationale": "ML Over 2.5: 70%."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 40.2,
+          "rationale": "Blended avg: 3.62. H2H Under 3.5: 60%. Formation: N/A vs N/A."
+        },
+        {
+          "market": "Double Chance - Home/Draw",
+          "betway_label": "Double Chance - 1X",
+          "confidence_pct": 39.6,
+          "rationale": "Home DC: 70%. ML Home: 57%. Squad quality edge: +0.00."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 39.2,
+          "rationale": "ML BTTS-No: 43%. Form BTTS: 75%. H2H BTTS: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 11,
+    "match": "Fransta IK vs IFK Ostersund",
+    "user_bet": "Over 0.5 @ 1.22",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 86.9,
+    "reason": "ML Over 1.5 = 86.9%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Fransta IK vs IFK \u00d6stersund",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (3.58) makes 0-0 highly unlikely.",
+      "edge": 0.2078,
+      "ml_probabilities": {
+        "btts": 61.2,
+        "over_2_5": 65.9,
+        "over_1_5": 86.9,
+        "under_2_5": 34.1,
+        "home_win": 27.8,
+        "away_win": 47.2
+      },
+      "intelligence": {
+        "home_squad_rating": null,
+        "away_squad_rating": null,
+        "home_top_player": null,
+        "away_top_player": null,
+        "home_formation": "N/A",
+        "away_formation": "N/A",
+        "squad_quality_gap": 0.0,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.0
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Fransta IK",
+          "matches_analyzed": 8,
+          "avg_total_goals": 4.12,
+          "avg_scored": 1.62,
+          "avg_conceded": 2.5,
+          "win_rate": 0.25,
+          "draw_rate": 0.375,
+          "btts_rate": 0.875,
+          "clean_sheet_rate": 0.0,
+          "over_2_5_rate": 0.75,
+          "under_2_5_rate": 0.25
+        },
+        "away": {
+          "name": "IFK \u00d6stersund",
+          "matches_analyzed": 10,
+          "avg_total_goals": 4.4,
+          "avg_scored": 2.9,
+          "avg_conceded": 1.5,
+          "win_rate": 0.7,
+          "draw_rate": 0.2,
+          "btts_rate": 0.8,
+          "clean_sheet_rate": 0.1,
+          "over_2_5_rate": 0.9,
+          "under_2_5_rate": 0.1
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (3.58) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 89.5,
+          "rationale": "ML Over 1.5: 87%. Formation attack index: N/A."
+        },
+        {
+          "market": "Double Chance - Away/Draw",
+          "betway_label": "Double Chance - X2",
+          "confidence_pct": 47.9,
+          "rationale": "Away DC: 90%. ML Away: 47%."
+        },
+        {
+          "market": "Over 2.5 Goals",
+          "betway_label": "Total Goals - Over 2.5",
+          "confidence_pct": 41.6,
+          "rationale": "ML Over 2.5: 66%."
+        },
+        {
+          "market": "Both Teams to Score - Yes",
+          "betway_label": "Both Teams to Score - Yes",
+          "confidence_pct": 40.7,
+          "rationale": "ML BTTS: 61%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 40.0,
+          "rationale": "Blended avg: 3.58. H2H Under 3.5: 60%. Formation: N/A vs N/A."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 12,
+    "match": "America FC RJ vs AD Cabofriense",
+    "user_bet": "Over 0.5 @ 1.29",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 77.2,
+    "reason": "ML Over 1.5 = 77.2%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "America-RJ vs Cabofriense",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (1.52) makes 0-0 highly unlikely.",
+      "edge": 0.2771,
+      "ml_probabilities": {
+        "btts": 54.7,
+        "over_2_5": 49.7,
+        "over_1_5": 77.2,
+        "under_2_5": 50.3,
+        "home_win": 49.5,
+        "away_win": 20.6
+      },
+      "intelligence": {
+        "home_squad_rating": null,
+        "away_squad_rating": null,
+        "home_top_player": null,
+        "away_top_player": null,
+        "home_formation": "N/A",
+        "away_formation": "N/A",
+        "squad_quality_gap": 0.0,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.0
+      },
+      "stats_summary": {
+        "home": {
+          "name": "America-RJ",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.5,
+          "avg_scored": 1.2,
+          "avg_conceded": 0.3,
+          "win_rate": 0.6,
+          "draw_rate": 0.3,
+          "btts_rate": 0.1,
+          "clean_sheet_rate": 0.8,
+          "over_2_5_rate": 0.2,
+          "under_2_5_rate": 0.8
+        },
+        "away": {
+          "name": "Cabofriense",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.3,
+          "avg_scored": 0.7,
+          "avg_conceded": 0.6,
+          "win_rate": 0.4,
+          "draw_rate": 0.4,
+          "btts_rate": 0.3,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.0,
+          "under_2_5_rate": 1.0
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (1.52) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 69.6,
+          "rationale": "Blended avg: 1.52. H2H Under 3.5: 60%. Formation: N/A vs N/A."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 66.5,
+          "rationale": "Blended avg: 1.52. ML Under 2.5: 50%."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 58.8,
+          "rationale": "ML Over 1.5: 77%. Formation attack index: N/A."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 56.7,
+          "rationale": "ML BTTS-No: 45%. Form BTTS: 20%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 53.1,
+          "rationale": "ML Under 2.5: 50%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 13,
+    "match": "San Lorenzo vs Instituto AC Cordoba",
+    "user_bet": "Over 0.5 @ 1.19",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 72.6,
+    "reason": "ML Over 1.5 = 72.6%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "San Lorenzo vs Instituto De C\u00f3rdoba",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (1.65) makes 0-0 highly unlikely.",
+      "edge": 0.1781,
+      "ml_probabilities": {
+        "btts": 50.7,
+        "over_2_5": 44.1,
+        "over_1_5": 72.6,
+        "under_2_5": 55.9,
+        "home_win": 41.1,
+        "away_win": 24.9
+      },
+      "intelligence": {
+        "home_squad_rating": 6.682,
+        "away_squad_rating": 7.058,
+        "home_top_player": 7.65,
+        "away_top_player": 7.967,
+        "home_formation": "4-4-2",
+        "away_formation": "4-4-2",
+        "squad_quality_gap": -0.188,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": -0.113
+      },
+      "stats_summary": {
+        "home": {
+          "name": "San Lorenzo",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.6,
+          "avg_scored": 0.8,
+          "avg_conceded": 0.8,
+          "win_rate": 0.3,
+          "draw_rate": 0.3,
+          "btts_rate": 0.3,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.2,
+          "under_2_5_rate": 0.8
+        },
+        "away": {
+          "name": "Instituto De C\u00f3rdoba",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.8,
+          "avg_scored": 1.0,
+          "avg_conceded": 0.8,
+          "win_rate": 0.3,
+          "draw_rate": 0.4,
+          "btts_rate": 0.4,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.3,
+          "under_2_5_rate": 0.7
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (1.65) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 66.0,
+          "rationale": "Blended avg: 1.65. H2H Under 3.5: 60%. Formation: 4-4-2 vs 4-4-2."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 62.8,
+          "rationale": "Blended avg: 1.65. ML Under 2.5: 56%."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 60.7,
+          "rationale": "ML Over 1.5: 73%. Formation attack index: 4-4-2."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 54.2,
+          "rationale": "ML BTTS-No: 49%. Form BTTS: 35%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 53.2,
+          "rationale": "ML Under 2.5: 56%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 14,
+    "match": "Velez Sarsfield vs CA Tigre",
+    "user_bet": "Over 1.5 @ 1.37",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 77.6,
+    "reason": "ML Over 1.5 = 77.6%. Strong signal.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "V\u00e9lez Sarsfield vs Tigre",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.07) makes 0-0 highly unlikely.",
+      "edge": 0.3563,
+      "ml_probabilities": {
+        "btts": 57.6,
+        "over_2_5": 55.2,
+        "over_1_5": 77.6,
+        "under_2_5": 44.8,
+        "home_win": 31.8,
+        "away_win": 36.9
+      },
+      "intelligence": {
+        "home_squad_rating": 6.97,
+        "away_squad_rating": 6.833,
+        "home_top_player": 8.133,
+        "away_top_player": 7.867,
+        "home_formation": "4-2-3-1",
+        "away_formation": "3-4-3",
+        "squad_quality_gap": 0.068,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.041
+      },
+      "stats_summary": {
+        "home": {
+          "name": "V\u00e9lez Sarsfield",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.2,
+          "avg_scored": 1.0,
+          "avg_conceded": 1.2,
+          "win_rate": 0.3,
+          "draw_rate": 0.2,
+          "btts_rate": 0.4,
+          "clean_sheet_rate": 0.2,
+          "over_2_5_rate": 0.4,
+          "under_2_5_rate": 0.6
+        },
+        "away": {
+          "name": "Tigre",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.1,
+          "avg_scored": 1.4,
+          "avg_conceded": 0.7,
+          "win_rate": 0.5,
+          "draw_rate": 0.4,
+          "btts_rate": 0.4,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.3,
+          "under_2_5_rate": 0.7
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.07) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 69.3,
+          "rationale": "ML Over 1.5: 78%. Formation attack index: 3-4-3."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 59.5,
+          "rationale": "Blended avg: 2.07. H2H Under 3.5: 60%. Formation: 4-2-3-1 vs 3-4-3."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 55.4,
+          "rationale": "Blended avg: 2.07. ML Under 2.5: 45%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 49.2,
+          "rationale": "ML BTTS-No: 42%. Form BTTS: 40%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 44.2,
+          "rationale": "ML Under 2.5: 45%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 15,
+    "match": "CA Sarmiento vs CA Talleres de Cordoba",
+    "user_bet": "Over 0.5 @ 1.14",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 75.3,
+    "reason": "ML Over 1.5 = 75.3%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Sarmiento vs CA Talleres",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (1.59) makes 0-0 highly unlikely.",
+      "edge": 0.1286,
+      "ml_probabilities": {
+        "btts": 48.8,
+        "over_2_5": 45.2,
+        "over_1_5": 75.3,
+        "under_2_5": 54.8,
+        "home_win": 36.9,
+        "away_win": 23.5
+      },
+      "intelligence": {
+        "home_squad_rating": 6.806,
+        "away_squad_rating": 6.909,
+        "home_top_player": 8.033,
+        "away_top_player": 7.733,
+        "home_formation": "4-4-2",
+        "away_formation": "4-2-3-1",
+        "squad_quality_gap": -0.051,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": -0.031
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Sarmiento",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.8,
+          "avg_scored": 0.7,
+          "avg_conceded": 1.1,
+          "win_rate": 0.3,
+          "draw_rate": 0.2,
+          "btts_rate": 0.2,
+          "clean_sheet_rate": 0.3,
+          "over_2_5_rate": 0.2,
+          "under_2_5_rate": 0.8
+        },
+        "away": {
+          "name": "CA Talleres",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.4,
+          "avg_scored": 0.8,
+          "avg_conceded": 0.6,
+          "win_rate": 0.5,
+          "draw_rate": 0.3,
+          "btts_rate": 0.2,
+          "clean_sheet_rate": 0.6,
+          "over_2_5_rate": 0.2,
+          "under_2_5_rate": 0.8
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (1.59) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 69.5,
+          "rationale": "Blended avg: 1.59. H2H Under 3.5: 60%. Formation: 4-4-2 vs 4-2-3-1."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 66.3,
+          "rationale": "Blended avg: 1.59. ML Under 2.5: 55%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 59.6,
+          "rationale": "ML BTTS-No: 51%. Form BTTS: 20%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 59.4,
+          "rationale": "ML Over 1.5: 75%. Formation attack index: 4-2-3-1."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 55.4,
+          "rationale": "ML Under 2.5: 55%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 16,
+    "match": "Argentinos Juniors vs Barracas Central",
+    "user_bet": "Over 0.5 @ 1.13",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 76.8,
+    "reason": "ML Over 1.5 = 76.8%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Argentinos Juniors vs Barracas Central",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (1.62) makes 0-0 highly unlikely.",
+      "edge": 0.1187,
+      "ml_probabilities": {
+        "btts": 48.5,
+        "over_2_5": 47.1,
+        "over_1_5": 76.8,
+        "under_2_5": 52.9,
+        "home_win": 39.9,
+        "away_win": 31.1
+      },
+      "intelligence": {
+        "home_squad_rating": 6.842,
+        "away_squad_rating": 6.961,
+        "home_top_player": 8.133,
+        "away_top_player": 8.233,
+        "home_formation": "4-3-3",
+        "away_formation": "3-4-3",
+        "squad_quality_gap": -0.06,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": -0.036
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Argentinos Juniors",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.6,
+          "avg_scored": 0.9,
+          "avg_conceded": 0.7,
+          "win_rate": 0.4,
+          "draw_rate": 0.4,
+          "btts_rate": 0.3,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.2,
+          "under_2_5_rate": 0.8
+        },
+        "away": {
+          "name": "Barracas Central",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.6,
+          "avg_scored": 0.9,
+          "avg_conceded": 0.7,
+          "win_rate": 0.3,
+          "draw_rate": 0.5,
+          "btts_rate": 0.3,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.1,
+          "under_2_5_rate": 0.9
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (1.62) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 70.3,
+          "rationale": "ML Over 1.5: 77%. Formation attack index: 3-4-3."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 58.8,
+          "rationale": "Blended avg: 1.62. H2H Under 3.5: 60%. Formation: 4-3-3 vs 3-4-3."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 56.8,
+          "rationale": "ML BTTS-No: 52%. Form BTTS: 30%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 55.6,
+          "rationale": "Blended avg: 1.62. ML Under 2.5: 53%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 44.1,
+          "rationale": "ML Under 2.5: 53%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 17,
+    "match": "San Martin de San Juan vs Estudiantes de La Plata",
+    "user_bet": "Over 1.5 @ 1.38",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 74.5,
+    "reason": "ML Over 1.5 = 74.5%. Strong signal.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "San Mart\u00edn de San Juan vs Estudiantes de La Plata",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (1.88) makes 0-0 highly unlikely.",
+      "edge": 0.3662,
+      "ml_probabilities": {
+        "btts": 51.6,
+        "over_2_5": 55.2,
+        "over_1_5": 74.5,
+        "under_2_5": 44.8,
+        "home_win": 29.0,
+        "away_win": 45.2
+      },
+      "intelligence": {
+        "home_squad_rating": 6.567,
+        "away_squad_rating": 7.058,
+        "home_top_player": 7.6,
+        "away_top_player": 8.0,
+        "home_formation": "4-2-3-1",
+        "away_formation": "4-2-3-1",
+        "squad_quality_gap": -0.245,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": -0.147
+      },
+      "stats_summary": {
+        "home": {
+          "name": "San Mart\u00edn de San Juan",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.9,
+          "avg_scored": 0.9,
+          "avg_conceded": 1.0,
+          "win_rate": 0.2,
+          "draw_rate": 0.6,
+          "btts_rate": 0.5,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.3,
+          "under_2_5_rate": 0.7
+        },
+        "away": {
+          "name": "Estudiantes de La Plata",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.8,
+          "avg_scored": 1.4,
+          "avg_conceded": 0.4,
+          "win_rate": 0.7,
+          "draw_rate": 0.3,
+          "btts_rate": 0.4,
+          "clean_sheet_rate": 0.6,
+          "over_2_5_rate": 0.3,
+          "under_2_5_rate": 0.7
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (1.88) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 72.0,
+          "rationale": "Blended avg: 1.88. H2H Under 3.5: 60%. Formation: 4-2-3-1 vs 4-2-3-1."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 68.2,
+          "rationale": "Blended avg: 1.88. ML Under 2.5: 45%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 55.7,
+          "rationale": "ML Under 2.5: 45%. H2H Under 2.5: 50%."
+        },
+        {
+          "market": "Double Chance - Away/Draw",
+          "betway_label": "Double Chance - X2",
+          "confidence_pct": 54.8,
+          "rationale": "Away DC: 100%. ML Away: 45%."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 54.1,
+          "rationale": "ML Over 1.5: 74%. Formation attack index: 4-2-3-1."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 18,
+    "match": "Newells Old Boys vs Boca Juniors",
+    "user_bet": "Over 0.5 @ 1.2",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 72.9,
+    "reason": "ML Over 1.5 = 72.9%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Newell's Old Boys vs Boca Juniors",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.00) makes 0-0 highly unlikely.",
+      "edge": 0.188,
+      "ml_probabilities": {
+        "btts": 53.6,
+        "over_2_5": 51.7,
+        "over_1_5": 72.9,
+        "under_2_5": 48.3,
+        "home_win": 30.6,
+        "away_win": 30.5
+      },
+      "intelligence": {
+        "home_squad_rating": 6.955,
+        "away_squad_rating": 6.921,
+        "home_top_player": 8.25,
+        "away_top_player": 8.167,
+        "home_formation": "5-3-2",
+        "away_formation": "4-4-2",
+        "squad_quality_gap": 0.017,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.01
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Newell's Old Boys",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.8,
+          "avg_scored": 0.7,
+          "avg_conceded": 2.1,
+          "win_rate": 0.1,
+          "draw_rate": 0.2,
+          "btts_rate": 0.5,
+          "clean_sheet_rate": 0.1,
+          "over_2_5_rate": 0.5,
+          "under_2_5_rate": 0.5
+        },
+        "away": {
+          "name": "Boca Juniors",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.4,
+          "avg_scored": 0.8,
+          "avg_conceded": 0.6,
+          "win_rate": 0.4,
+          "draw_rate": 0.3,
+          "btts_rate": 0.3,
+          "clean_sheet_rate": 0.6,
+          "over_2_5_rate": 0.3,
+          "under_2_5_rate": 0.7
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.00) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 64.0,
+          "rationale": "Blended avg: 2.00. H2H Under 3.5: 60%. Formation: 5-3-2 vs 4-4-2."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 62.6,
+          "rationale": "ML Over 1.5: 73%. Formation attack index: 4-4-2."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 60.0,
+          "rationale": "Blended avg: 2.00. ML Under 2.5: 48%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 51.2,
+          "rationale": "ML BTTS-No: 46%. Form BTTS: 40%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 49.8,
+          "rationale": "ML Under 2.5: 48%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 19,
+    "match": "Estudiantes de Rio Cuarto vs CA Huracan",
+    "user_bet": "Over 0.5 @ 1.12",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 76.0,
+    "reason": "ML Over 1.5 = 76.0%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Estudiantes de R\u00edo Cuarto vs Hurac\u00e1n",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (1.76) makes 0-0 highly unlikely.",
+      "edge": 0.1088,
+      "ml_probabilities": {
+        "btts": 48.4,
+        "over_2_5": 47.9,
+        "over_1_5": 76.0,
+        "under_2_5": 52.1,
+        "home_win": 40.9,
+        "away_win": 28.0
+      },
+      "intelligence": {
+        "home_squad_rating": 6.985,
+        "away_squad_rating": 6.927,
+        "home_top_player": 7.5,
+        "away_top_player": 7.8,
+        "home_formation": "4-4-2",
+        "away_formation": "4-2-3-1",
+        "squad_quality_gap": 0.029,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.017
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Estudiantes de R\u00edo Cuarto",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.6,
+          "avg_scored": 0.9,
+          "avg_conceded": 0.7,
+          "win_rate": 0.5,
+          "draw_rate": 0.2,
+          "btts_rate": 0.3,
+          "clean_sheet_rate": 0.4,
+          "over_2_5_rate": 0.2,
+          "under_2_5_rate": 0.8
+        },
+        "away": {
+          "name": "Hurac\u00e1n",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.0,
+          "avg_scored": 1.1,
+          "avg_conceded": 0.9,
+          "win_rate": 0.3,
+          "draw_rate": 0.4,
+          "btts_rate": 0.4,
+          "clean_sheet_rate": 0.3,
+          "over_2_5_rate": 0.2,
+          "under_2_5_rate": 0.8
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (1.76) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 66.4,
+          "rationale": "Blended avg: 1.76. H2H Under 3.5: 60%. Formation: 4-4-2 vs 4-2-3-1."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 63.1,
+          "rationale": "ML Over 1.5: 76%. Formation attack index: 4-2-3-1."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 62.9,
+          "rationale": "Blended avg: 1.76. ML Under 2.5: 52%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 55.3,
+          "rationale": "ML BTTS-No: 52%. Form BTTS: 35%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 51.8,
+          "rationale": "ML Under 2.5: 52%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 20,
+    "match": "Vitoria BA vs America MG",
+    "user_bet": "Over 0.5 @ 1.15",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 76.3,
+    "reason": "ML Over 1.5 = 76.3%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Vit\u00f3ria vs Am\u00e9rica Mineiro",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.08) makes 0-0 highly unlikely.",
+      "edge": 0.1385,
+      "ml_probabilities": {
+        "btts": 54.7,
+        "over_2_5": 50.3,
+        "over_1_5": 76.3,
+        "under_2_5": 49.7,
+        "home_win": 42.3,
+        "away_win": 27.9
+      },
+      "intelligence": {
+        "home_squad_rating": 6.921,
+        "away_squad_rating": 6.994,
+        "home_top_player": 8.133,
+        "away_top_player": 7.9,
+        "home_formation": "4-4-2",
+        "away_formation": "4-1-4-1",
+        "squad_quality_gap": -0.036,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": -0.022
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Vit\u00f3ria",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.7,
+          "avg_scored": 1.4,
+          "avg_conceded": 1.3,
+          "win_rate": 0.4,
+          "draw_rate": 0.2,
+          "btts_rate": 0.5,
+          "clean_sheet_rate": 0.3,
+          "over_2_5_rate": 0.5,
+          "under_2_5_rate": 0.5
+        },
+        "away": {
+          "name": "Am\u00e9rica Mineiro",
+          "matches_analyzed": 10,
+          "avg_total_goals": 1.8,
+          "avg_scored": 1.1,
+          "avg_conceded": 0.7,
+          "win_rate": 0.4,
+          "draw_rate": 0.5,
+          "btts_rate": 0.5,
+          "clean_sheet_rate": 0.4,
+          "over_2_5_rate": 0.2,
+          "under_2_5_rate": 0.8
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.08) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 64.9,
+          "rationale": "ML Over 1.5: 76%. Formation attack index: 4-1-4-1."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 63.2,
+          "rationale": "Blended avg: 2.08. H2H Under 3.5: 60%. Formation: 4-4-2 vs 4-1-4-1."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 59.0,
+          "rationale": "Blended avg: 2.08. ML Under 2.5: 50%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 50.6,
+          "rationale": "ML Under 2.5: 50%. H2H Under 2.5: 50%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 47.6,
+          "rationale": "ML BTTS-No: 45%. Form BTTS: 50%. H2H BTTS: 50%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 21,
+    "match": "Juventude vs Bahia",
+    "user_bet": "Over 0.5 @ 1.08",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 78.1,
+    "reason": "ML Over 1.5 = 78.1%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Juventude vs Bahia",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.55) makes 0-0 highly unlikely.",
+      "edge": 0.0692,
+      "ml_probabilities": {
+        "btts": 60.6,
+        "over_2_5": 59.4,
+        "over_1_5": 78.1,
+        "under_2_5": 40.6,
+        "home_win": 41.5,
+        "away_win": 32.2
+      },
+      "intelligence": {
+        "home_squad_rating": 6.994,
+        "away_squad_rating": 7.179,
+        "home_top_player": 8.133,
+        "away_top_player": 8.367,
+        "home_formation": "3-4-2-1",
+        "away_formation": "4-3-3",
+        "squad_quality_gap": -0.093,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": -0.056
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Juventude",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.6,
+          "avg_scored": 2.0,
+          "avg_conceded": 0.6,
+          "win_rate": 0.6,
+          "draw_rate": 0.4,
+          "btts_rate": 0.5,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.4,
+          "under_2_5_rate": 0.6
+        },
+        "away": {
+          "name": "Bahia",
+          "matches_analyzed": 10,
+          "avg_total_goals": 3.0,
+          "avg_scored": 2.0,
+          "avg_conceded": 1.0,
+          "win_rate": 0.6,
+          "draw_rate": 0.3,
+          "btts_rate": 0.7,
+          "clean_sheet_rate": 0.2,
+          "over_2_5_rate": 0.5,
+          "under_2_5_rate": 0.5
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.55) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 71.9,
+          "rationale": "ML Over 1.5: 78%. Formation attack index: 4-3-3."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 54.8,
+          "rationale": "Blended avg: 2.55. H2H Under 3.5: 60%. Formation: 3-4-2-1 vs 4-3-3."
+        },
+        {
+          "market": "Double Chance - Home/Draw",
+          "betway_label": "Double Chance - 1X",
+          "confidence_pct": 50.9,
+          "rationale": "Home DC: 100%. ML Home: 41%. Squad quality edge: -0.09."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 49.7,
+          "rationale": "Blended avg: 2.55. ML Under 2.5: 41%."
+        },
+        {
+          "market": "Double Chance - Away/Draw",
+          "betway_label": "Double Chance - X2",
+          "confidence_pct": 42.6,
+          "rationale": "Away DC: 90%. ML Away: 32%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 22,
+    "match": "Gremio vs Fluminense",
+    "user_bet": "Over 0.5 @ 1.19",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 76.0,
+    "reason": "ML Over 1.5 = 76.0%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Gr\u00eamio vs Fluminense",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.21) makes 0-0 highly unlikely.",
+      "edge": 0.1781,
+      "ml_probabilities": {
+        "btts": 56.5,
+        "over_2_5": 53.2,
+        "over_1_5": 76.0,
+        "under_2_5": 46.8,
+        "home_win": 37.5,
+        "away_win": 35.6
+      },
+      "intelligence": {
+        "home_squad_rating": 6.77,
+        "away_squad_rating": 6.991,
+        "home_top_player": 8.4,
+        "away_top_player": 8.1,
+        "home_formation": "4-2-3-1",
+        "away_formation": "4-2-3-1",
+        "squad_quality_gap": -0.111,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": -0.066
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Gr\u00eamio",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.7,
+          "avg_scored": 1.6,
+          "avg_conceded": 1.1,
+          "win_rate": 0.4,
+          "draw_rate": 0.5,
+          "btts_rate": 0.7,
+          "clean_sheet_rate": 0.2,
+          "over_2_5_rate": 0.3,
+          "under_2_5_rate": 0.7
+        },
+        "away": {
+          "name": "Fluminense",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.1,
+          "avg_scored": 1.4,
+          "avg_conceded": 0.7,
+          "win_rate": 0.6,
+          "draw_rate": 0.3,
+          "btts_rate": 0.5,
+          "clean_sheet_rate": 0.5,
+          "over_2_5_rate": 0.3,
+          "under_2_5_rate": 0.7
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.21) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 65.6,
+          "rationale": "Blended avg: 2.21. H2H Under 3.5: 60%. Formation: 4-2-3-1 vs 4-2-3-1."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 61.6,
+          "rationale": "ML Over 1.5: 76%. Formation attack index: 4-2-3-1."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 61.2,
+          "rationale": "Blended avg: 2.21. ML Under 2.5: 47%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 52.7,
+          "rationale": "ML Under 2.5: 47%. H2H Under 2.5: 50%."
+        },
+        {
+          "market": "Double Chance - Away/Draw",
+          "betway_label": "Double Chance - X2",
+          "confidence_pct": 44.0,
+          "rationale": "Away DC: 90%. ML Away: 36%."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 23,
+    "match": "Malaga CF vs Las Palmas",
+    "user_bet": "Over 0.5 @ 1.24",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 77.6,
+    "reason": "ML Over 1.5 = 77.6%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "M\u00e1laga CF vs Las Palmas",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.41) makes 0-0 highly unlikely.",
+      "edge": 0.2276,
+      "ml_probabilities": {
+        "btts": 54.3,
+        "over_2_5": 58.6,
+        "over_1_5": 77.6,
+        "under_2_5": 41.4,
+        "home_win": 48.0,
+        "away_win": 24.2
+      },
+      "intelligence": {
+        "home_squad_rating": 7.005,
+        "away_squad_rating": 6.936,
+        "home_top_player": 8.15,
+        "away_top_player": 8.133,
+        "home_formation": "4-4-1-1",
+        "away_formation": "4-4-2",
+        "squad_quality_gap": 0.034,
+        "home_fifa_rank": 60,
+        "away_fifa_rank": 60,
+        "strength_signal": 0.021
+      },
+      "stats_summary": {
+        "home": {
+          "name": "M\u00e1laga CF",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.8,
+          "avg_scored": 1.8,
+          "avg_conceded": 1.0,
+          "win_rate": 0.6,
+          "draw_rate": 0.2,
+          "btts_rate": 0.8,
+          "clean_sheet_rate": 0.2,
+          "over_2_5_rate": 0.7,
+          "under_2_5_rate": 0.3
+        },
+        "away": {
+          "name": "Las Palmas",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.4,
+          "avg_scored": 1.3,
+          "avg_conceded": 1.1,
+          "win_rate": 0.4,
+          "draw_rate": 0.3,
+          "btts_rate": 0.6,
+          "clean_sheet_rate": 0.3,
+          "over_2_5_rate": 0.5,
+          "under_2_5_rate": 0.5
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.41) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 69.8,
+          "rationale": "ML Over 1.5: 78%. Formation attack index: 4-4-2."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 58.4,
+          "rationale": "Blended avg: 2.41. H2H Under 3.5: 60%. Formation: 4-4-1-1 vs 4-4-2."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 53.5,
+          "rationale": "Blended avg: 2.41. ML Under 2.5: 41%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 43.9,
+          "rationale": "ML Under 2.5: 41%. H2H Under 2.5: 50%."
+        },
+        {
+          "market": "Double Chance - Home/Draw",
+          "betway_label": "Double Chance - 1X",
+          "confidence_pct": 42.5,
+          "rationale": "Home DC: 80%. ML Home: 48%. Squad quality edge: +0.03."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 24,
+    "match": "Portugal vs Nigeria",
+    "user_bet": "Over 0.5 @ 1.71",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 78.1,
+    "reason": "ML Over 1.5 = 78.1%, so Over 0.5 is very safe.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "Portugal vs Nigeria",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (2.54) makes 0-0 highly unlikely.",
+      "edge": 0.6929,
+      "ml_probabilities": {
+        "btts": 57.0,
+        "over_2_5": 58.6,
+        "over_1_5": 78.1,
+        "under_2_5": 41.4,
+        "home_win": 56.6,
+        "away_win": 14.4
+      },
+      "intelligence": {
+        "home_squad_rating": 7.27,
+        "away_squad_rating": 6.709,
+        "home_top_player": 8.233,
+        "away_top_player": 7.1,
+        "home_formation": "4-1-4-1",
+        "away_formation": "4-3-3",
+        "squad_quality_gap": 0.28,
+        "home_fifa_rank": 6,
+        "away_fifa_rank": 37,
+        "strength_signal": 0.478
+      },
+      "stats_summary": {
+        "home": {
+          "name": "Portugal",
+          "matches_analyzed": 10,
+          "avg_total_goals": 3.1,
+          "avg_scored": 2.0,
+          "avg_conceded": 1.1,
+          "win_rate": 0.6,
+          "draw_rate": 0.1,
+          "btts_rate": 0.4,
+          "clean_sheet_rate": 0.4,
+          "over_2_5_rate": 0.6,
+          "under_2_5_rate": 0.4
+        },
+        "away": {
+          "name": "Nigeria",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.5,
+          "avg_scored": 1.2,
+          "avg_conceded": 1.3,
+          "win_rate": 0.3,
+          "draw_rate": 0.4,
+          "btts_rate": 0.6,
+          "clean_sheet_rate": 0.2,
+          "over_2_5_rate": 0.5,
+          "under_2_5_rate": 0.5
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (2.54) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 73.2,
+          "rationale": "ML Over 1.5: 78%. Formation attack index: 4-3-3."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 54.1,
+          "rationale": "Blended avg: 2.54. H2H Under 3.5: 60%. Formation: 4-1-4-1 vs 4-3-3."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 49.0,
+          "rationale": "Blended avg: 2.54. ML Under 2.5: 41%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 46.5,
+          "rationale": "ML BTTS-No: 43%. Form BTTS: 50%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Double Chance - Home/Draw",
+          "betway_label": "Double Chance - 1X",
+          "confidence_pct": 45.4,
+          "rationale": "Home DC: 70%. ML Home: 57%. Squad quality edge: +0.28."
+        }
+      ]
+    }
+  },
+  {
+    "idx": 25,
+    "match": "England vs Costa Rica",
+    "user_bet": "Over 1.5 @ 1.23",
+    "verdict": "\u2705 APPROVE",
+    "ml_conf": 70.2,
+    "reason": "ML Over 1.5 = 70.2%. Strong signal.",
+    "system_rec": "Over 0.5 Goals",
+    "system_conf": 99.0,
+    "full_data": {
+      "matchup": "England vs Costa Rica",
+      "mode": "low_risk",
+      "recommendation": "Over 0.5 Goals",
+      "betway_market": "Total Goals - Over 0.5",
+      "confidence": 99.0,
+      "rationale": "Avg goals (1.99) makes 0-0 highly unlikely.",
+      "edge": 0.2177,
+      "ml_probabilities": {
+        "btts": 52.9,
+        "over_2_5": 51.3,
+        "over_1_5": 70.2,
+        "under_2_5": 48.7,
+        "home_win": 32.4,
+        "away_win": 44.3
+      },
+      "intelligence": {
+        "home_squad_rating": 7.118,
+        "away_squad_rating": 7.133,
+        "home_top_player": 8.033,
+        "away_top_player": 8.333,
+        "home_formation": "4-2-3-1",
+        "away_formation": "3-4-3",
+        "squad_quality_gap": -0.007,
+        "home_fifa_rank": 3,
+        "away_fifa_rank": 51,
+        "strength_signal": 0.396
+      },
+      "stats_summary": {
+        "home": {
+          "name": "England",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.0,
+          "avg_scored": 1.2,
+          "avg_conceded": 0.8,
+          "win_rate": 0.4,
+          "draw_rate": 0.4,
+          "btts_rate": 0.5,
+          "clean_sheet_rate": 0.3,
+          "over_2_5_rate": 0.4,
+          "under_2_5_rate": 0.6
+        },
+        "away": {
+          "name": "Costa Rica",
+          "matches_analyzed": 10,
+          "avg_total_goals": 2.2,
+          "avg_scored": 1.6,
+          "avg_conceded": 0.6,
+          "win_rate": 0.5,
+          "draw_rate": 0.3,
+          "btts_rate": 0.2,
+          "clean_sheet_rate": 0.6,
+          "over_2_5_rate": 0.6,
+          "under_2_5_rate": 0.4
+        },
+        "h2h": null
+      },
+      "ranked_markets": [
+        {
+          "market": "Over 0.5 Goals",
+          "betway_label": "Total Goals - Over 0.5",
+          "confidence_pct": 99.0,
+          "rationale": "Avg goals (1.99) makes 0-0 highly unlikely."
+        },
+        {
+          "market": "Over 1.5 Goals",
+          "betway_label": "Total Goals - Over 1.5",
+          "confidence_pct": 62.3,
+          "rationale": "ML Over 1.5: 70%. Formation attack index: 3-4-3."
+        },
+        {
+          "market": "Under 4.5 Goals",
+          "betway_label": "Total Goals - Under 4.5",
+          "confidence_pct": 61.8,
+          "rationale": "Blended avg: 1.99. H2H Under 3.5: 60%. Formation: 4-2-3-1 vs 3-4-3."
+        },
+        {
+          "market": "Under 3.5 Goals",
+          "betway_label": "Total Goals - Under 3.5",
+          "confidence_pct": 57.8,
+          "rationale": "Blended avg: 1.99. ML Under 2.5: 49%."
+        },
+        {
+          "market": "Both Teams to Score - No",
+          "betway_label": "Both Teams to Score - No",
+          "confidence_pct": 53.0,
+          "rationale": "ML BTTS-No: 47%. Form BTTS: 35%. H2H BTTS: 50%."
+        },
+        {
+          "market": "Under 2.5 Goals",
+          "betway_label": "Total Goals - Under 2.5",
+          "confidence_pct": 48.3,
+          "rationale": "ML Under 2.5: 49%. H2H Under 2.5: 50%."
+        }
+      ]
+    }
+  }
+]

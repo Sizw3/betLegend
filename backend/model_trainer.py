@@ -13,6 +13,7 @@ from xgboost import XGBClassifier
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, roc_auc_score
+from wc_feature_connector import WCFeatureConnector
 
 MODEL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
 
@@ -58,6 +59,7 @@ def download_data():
     return pd.concat(dfs, ignore_index=True) if dfs else None
 
 def build_features(df):
+    connector = WCFeatureConnector()
     needed = ['HomeTeam','AwayTeam','FTHG','FTAG','FTR']
     df = df.dropna(subset=needed).copy().reset_index(drop=True)
     for col in ['HS','AS','HST','AST']:
@@ -104,6 +106,26 @@ def build_features(df):
         feat['btts_prob']     = (hs['btts_rate'] + as_['btts_rate']) / 2
         feat['form_diff']     = hs['form'] - as_['form']
         feat['cs_combined']   = (hs['cs_rate'] + as_['cs_rate']) / 2
+        
+        # --- Humanistic/WC Upgrade: Team DNA Features ---
+        hwc = connector.get_features(ht)
+        awc = connector.get_features(at)
+        
+        feat['h_wc_rank']   = hwc['wc_rank']
+        feat['a_wc_rank']   = awc['wc_rank']
+        feat['h_wc_value']  = hwc['wc_value']
+        feat['a_wc_value']  = awc['wc_value']
+        feat['h_wc_exp']    = hwc['wc_exp']
+        feat['a_wc_exp']    = awc['wc_exp']
+        feat['h_wc_titles'] = hwc['wc_titles']
+        feat['a_wc_titles'] = awc['wc_titles']
+        feat['h_wc_success'] = hwc['wc_success_rate']
+        feat['a_wc_success'] = awc['wc_success_rate']
+        feat['wc_rank_diff'] = hwc['wc_rank'] - awc['wc_rank']
+        feat['h_heritage']   = hwc['heritage_score']
+        feat['a_heritage']   = awc['heritage_score']
+        feat['heritage_diff'] = hwc['heritage_score'] - awc['heritage_score']
+        
         rows.append(feat)
 
         hg, ag, ftr = int(row['FTHG']), int(row['FTAG']), row['FTR']

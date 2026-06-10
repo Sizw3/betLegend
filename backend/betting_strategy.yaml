@@ -1,0 +1,66 @@
+name: "Zero-Stress Compounding Low-Odds Strategy"
+version: "1.2"
+description: >
+  A statistically driven accumulator strategy leveraging extreme safety nets
+  to compound low odds. Relies heavily on betting on 'inaction' (Unders) 
+  and validating picks through live H2H historical data.
+
+rules:
+  - id: ban_over_1_5
+    name: "Ban Over 1.5 Goals"
+    description: "Never bet Over 1.5. It relies on action and creates 90th-minute volatility."
+  - id: inaction_bias
+    name: "Bias Towards Inaction"
+    description: "Heavily favor extreme Unders (Under 3.5, 4.5, 5.5). The clock works for you."
+  - id: h2h_validation
+    name: "SofaScore H2H Validation"
+    description: "MANDATORY: Check the SofaScore Head-to-Head tab before locking a pick. Discard any 'Under' pick if H2H history shows a chaotic scoring rivalry."
+  - id: compound_low_odds
+    name: "Compound Low Odds"
+    description: "Combine 15-30 highly probable events (1.05 - 1.15 odds) rather than fewer risky events."
+
+validation_workflow:
+  tool: "SofaScore App / Web"
+  steps:
+    - step_1: "Search the specific fixture on SofaScore."
+    - step_2: "Navigate to the 'Matches' -> 'Head to Head' section."
+    - step_3: "Check 'Over/Under' streaks. If the H2H streak shows 'Over 2.5 goals (80%+)', ABORT the Under 4.5 pick."
+    - step_4: "Check recent meetings. If the last 3 meetings averaged more than 3 goals, ABORT the pick."
+    - step_5: "For 'Elite Shield' (Double Chance) picks, ensure the favorite hasn't lost to the underdog in the last 5 meetings."
+
+market_strategies:
+  unders:
+    markets:
+      - "Under 3.5"
+      - "Under 4.5"
+      - "Under 5.5"
+    target_leagues:
+      - "Morocco Botola Pro D1"
+      - "Argentina Primera B / Primera C / Reserves"
+      - "African Women's International Friendlies"
+      - "Iran Azadegan League (2nd Div)"
+      - "Uruguay / Chile Lower Divisions"
+    rationale: "Leagues with strong defensive structures, poor pitch conditions, or a low-scoring culture."
+
+  overs:
+    markets:
+      - "Over 0.5"
+    target_leagues:
+      - "Scandinavia (Sweden Ettan, Finland Kakkonen/Ykkosliiga)"
+      - "USA (MLS Next Pro, USL)"
+      - "International Youth Friendlies"
+    rationale: "Highly open play styles where at least 1 goal is statistically near-certain. Limit to Over 0.5."
+
+  mismatches:
+    markets:
+      - "Double Chance (1X / X2) for favorite"
+      - "BTTS - No"
+    target_leagues:
+      - "Senior International Friendlies (Tier 1 vs Minnows)"
+      - "Elite Youth Academies (e.g., Portugal, France)"
+    rationale: "Removes variance of a fluke draw. 'BTTS - No' works well when underdogs park the bus."
+
+slip_configuration:
+  target_legs: 15-30
+  target_odds_per_leg: 1.05-1.15
+  overall_multiplier_target: 5.0x-15.0x

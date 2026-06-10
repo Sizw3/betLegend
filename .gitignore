@@ -1,0 +1,23 @@
+# Virtual Environments
+venv39/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Backend Data / Caches
+backend/.cache/
+backend/historical_matches.json
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db

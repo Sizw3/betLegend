@@ -58,6 +58,7 @@ export default function App() {
   const [analyzing, setAnalyzing] = useState(false)
   const [activePrediction, setActivePrediction] = useState(null)
   const [mode, setMode] = useState('conservative')
+  const [mobileSlipOpen, setMobileSlipOpen] = useState(false)
 
   const addToSlip = (match) => {
     if (slip.find(s => s.home === match.home && s.away === match.away)) return
@@ -146,7 +147,16 @@ export default function App() {
           onClear={() => setSlip([])}
           onBuildSlip={buildSlip}
           analyzing={analyzing}
+          mobileOpen={mobileSlipOpen}
+          onClose={() => setMobileSlipOpen(false)}
         />
+
+        {mobileSlipOpen && <div className="slip-overlay" onClick={() => setMobileSlipOpen(false)} />}
+
+        <button className="slip-fab" onClick={() => setMobileSlipOpen(true)}>
+          📝
+          {slip.length > 0 && <span className="slip-fab-count">{slip.length}</span>}
+        </button>
       </div>
     </div>
   )

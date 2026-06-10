@@ -1,4 +1,4 @@
-export default function BetSlip({ slip, onRemove, onClear, onBuildSlip, analyzing }) {
+export default function BetSlip({ slip, onRemove, onClear, onBuildSlip, analyzing, mobileOpen, onClose }) {
     const analyzedGames = slip.filter(s => s.prediction && !s.prediction.error)
     const unanalyzedGames = slip.filter(s => !s.prediction)
 
@@ -9,10 +9,13 @@ export default function BetSlip({ slip, onRemove, onClear, onBuildSlip, analyzin
     const totalConfidence = isNaN(rawProb) ? 0 : rawProb.toFixed(1)
 
     return (
-        <div className="bet-slip">
+        <div className={`bet-slip ${mobileOpen ? 'mobile-open' : ''}`}>
             <div className="slip-header">
                 <span>BET SLIP</span>
-                <span className="slip-count">{slip.length}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+                    <span className="slip-count">{slip.length}</span>
+                    <button className="mobile-only-close" onClick={onClose} style={{ background: 'none', border: 'none', color: '#000', fontSize: '1.5rem', fontWeight: '900', cursor: 'pointer', display: mobileOpen ? 'block' : 'none' }}>×</button>
+                </div>
             </div>
 
             <div className="slip-content">

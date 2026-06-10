@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+pandas
+numpy
+xgboost
+playwright
+playwright-stealth
+httpx
+requests
+scikit-learn
